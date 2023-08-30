@@ -10,10 +10,7 @@ public class MenuPrincipal : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
-    public void MostrarTablaPuntuaciones()
-    {
-        SceneManager.LoadScene("NombreDeLaEscenaDeTablaDePuntuaciones");
-    }
+    
     public void Salir()
     {
         Debug.Log("Saliendo...");
