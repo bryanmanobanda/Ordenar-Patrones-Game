@@ -262,6 +262,7 @@ GameObject:
   - component: {fileID: 149370895}
   - component: {fileID: 149370897}
   - component: {fileID: 149370896}
+  - component: {fileID: 149370898}
   m_Layer: 5
   m_Name: fondoOrdenado
   m_TagString: Untagged
@@ -328,6 +329,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 149370894}
   m_CullTransparentMesh: 1
+--- !u!114 &149370898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 149370894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad432ca16fffc944db58fc04faef2060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  A: {fileID: 1401268202}
+  B: {fileID: 927411512}
+  C: {fileID: 237828069}
+  D: {fileID: 1019371893}
+  E: {fileID: 354025092}
 --- !u!1 &173326550
 GameObject:
   m_ObjectHideFlags: 0
@@ -517,6 +535,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7349dc5450744248bf470331179b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: 0
   correctForm: {fileID: 364936670}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -732,6 +751,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7349dc5450744248bf470331179b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: 0
   correctForm: {fileID: 726780569}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -2239,6 +2259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7349dc5450744248bf470331179b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: 0
   correctForm: {fileID: 573602809}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -2454,6 +2475,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7349dc5450744248bf470331179b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: 0
   correctForm: {fileID: 868560188}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -3132,7 +3154,7 @@ GameObject:
   - component: {fileID: 1401268205}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: A
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3169,6 +3191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7349dc5450744248bf470331179b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: 0
   correctForm: {fileID: 1801554617}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -4537,6 +4560,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7349dc5450744248bf470331179b1d3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  next: 0
   correctForm: {fileID: 512547422}
   puntos: {fileID: 1441707456}
   destroyObject: 1
