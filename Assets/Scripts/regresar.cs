@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class regresar : MonoBehaviour
 {
-    public void Jugar()
+    public void Regresar()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
