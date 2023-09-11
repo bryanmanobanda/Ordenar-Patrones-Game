@@ -11,6 +11,7 @@ public class Reloj : MonoBehaviour
 
     public Text textoTiempo;
     public string escenaA;
+    public GameObject distractornivel1;
 
     void Start()
     {
