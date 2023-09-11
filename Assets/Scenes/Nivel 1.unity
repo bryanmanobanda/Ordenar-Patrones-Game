@@ -488,6 +488,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: 0
+  acumulados: 0
   correctForm: {fileID: 364936670}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -678,7 +679,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b31b9856296b26548aa4c049412abc54, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.503
+  m_Volume: 0.203
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -832,6 +833,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: 0
+  acumulados: 0
   correctForm: {fileID: 512547422}
   puntos: {fileID: 1441707456}
   destroyObject: 1
@@ -2506,6 +2508,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: 0
+  acumulados: 0
   correctForm: {fileID: 573602809}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -2722,6 +2725,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: 0
+  acumulados: 0
   correctForm: {fileID: 868560188}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -3426,6 +3430,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: 0
+  acumulados: 0
   correctForm: {fileID: 1801554617}
   puntos: {fileID: 1441707456}
   destroyObject: 0
@@ -4803,6 +4808,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   next: 0
+  acumulados: 0
   correctForm: {fileID: 512547422}
   puntos: {fileID: 1441707456}
   destroyObject: 1

@@ -11,8 +11,13 @@ public class VictoriaNivel2 : MonoBehaviour
     public MoveSystem D;
     public MoveSystem E;
 
+    public GameObject enemy2;
 
-    // Update is called once per frame
+    void Start()
+    {
+        Invoke("ShowEnemy", 30f);
+        Debug.Log("enemigo en 30s");
+    }
     void Update()
     {
         if (A.next == 1 && B.next == 1 && C.next == 1 && D.next == 1 && E.next == 1)
@@ -27,5 +32,16 @@ public class VictoriaNivel2 : MonoBehaviour
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
+    }
+    public void ShowEnemy()
+    {
+        enemy2.gameObject.SetActive(true);
+        Invoke("OcultarEnemy", 4f);
+        Debug.Log("enemigo se va en 4s");
+    }
+    public void OcultarEnemy()
+    {
+        enemy2.gameObject.SetActive(false);
+
     }
 }
