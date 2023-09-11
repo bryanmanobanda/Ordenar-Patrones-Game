@@ -843,10 +843,10 @@ RectTransform:
   m_Father: {fileID: 551679951}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.000061035156, y: 0}
-  m_SizeDelta: {x: -819, y: -386.0681}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1101, y: 520.32996}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &435182888
 MonoBehaviour:
@@ -1091,8 +1091,8 @@ Canvas:
   m_GameObject: {fileID: 551679947}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 930233769}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1207,7 +1207,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.000015259, y: 250}
+  m_AnchoredPosition: {x: 0.00012207, y: 267}
   m_SizeDelta: {x: 975.4807, y: 112.3888}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &580090374
@@ -2439,7 +2439,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 230.27002, y: 0.0010070801}
+  m_AnchoredPosition: {x: 230.27003, y: 0.0010070801}
   m_SizeDelta: {x: -460.53998, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1484487756
@@ -2943,8 +2943,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.460022, y: 35.63287}
-  m_SizeDelta: {x: 231.8351, y: 266.0779}
+  m_AnchoredPosition: {x: 0.35003, y: 32.383}
+  m_SizeDelta: {x: 163.62, y: 203.2063}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1953677922
 MonoBehaviour:
@@ -2966,7 +2966,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2494029a645bdb241b1173ef5c57d7d3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f1c93357218919246b45d4ba1bd17658, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1

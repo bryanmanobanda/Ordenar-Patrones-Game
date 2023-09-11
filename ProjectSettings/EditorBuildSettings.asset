@@ -10,8 +10,14 @@ EditorBuildSettings:
     guid: c4c09c80869dddc44ae733a4316a3b3e
   - enabled: 1
     path: Assets/Scenes/Nivel 1.unity
-    guid: ee0b0892192aac14a94d7353d6adc955
+    guid: f220e03f62cb8884886cdd1c61944ea6
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Nivel 2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Nivel 3.unity
+    guid: 7b16d19a81f356b4581bab4640b0140b
+  - enabled: 1
+    path: Assets/Scenes/NIvelFallido.unity
+    guid: 9f3caf43590d72542aa9a13790e2120b
   m_configObjects: {}

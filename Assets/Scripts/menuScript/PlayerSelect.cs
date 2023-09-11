@@ -8,6 +8,8 @@ public class PlayerSelect : MonoBehaviour
     public Image[] selectionBoxes;
 
     public GameObject[] prefabs;
+    //player prefabs
+    //public int playerPrefs; 
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,7 @@ public class PlayerSelect : MonoBehaviour
      
     public void Select(int index)
     {
+        
         foreach (var img in this.selectionBoxes)
         {
             img.gameObject.SetActive(false);
@@ -28,6 +31,9 @@ public class PlayerSelect : MonoBehaviour
         }
         this.selectionBoxes[index].gameObject.SetActive(true);
         PlayerStorage.playerPrefab = this.prefabs[index];
+        //player prefabs
+        PlayerPrefs.SetInt("jugador", index);
+        Debug.Log(index);
     }
  
      

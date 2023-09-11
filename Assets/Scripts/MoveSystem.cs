@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class MoveSystem : MonoBehaviour
 {
+    public int next=0;
     public GameObject correctForm;
     public Text puntos;
     private bool moving;
@@ -58,6 +59,9 @@ public class MoveSystem : MonoBehaviour
             finish = true;
             Score.points = Score.points + 10;
             puntos.text = Score.points.ToString();
+            //Aqui hizo liz 
+            next++;
+            Debug.Log(next);
         }
         else
         {
