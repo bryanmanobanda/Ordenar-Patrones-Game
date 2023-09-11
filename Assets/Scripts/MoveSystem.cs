@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class MoveSystem : MonoBehaviour
 {
     public int next=0;
+    public int acumulados;
     public GameObject correctForm;
     public Text puntos;
     private bool moving;
@@ -21,6 +22,8 @@ public class MoveSystem : MonoBehaviour
     void Start()
     {
         resetPosition = this.transform.localPosition;
+        acumulados += PlayerPrefs.GetInt("puntosAcumulados");
+        PlayerPrefs.SetInt("puntosAcumulados2", acumulados);
     }
 
     void Update()
@@ -61,7 +64,12 @@ public class MoveSystem : MonoBehaviour
             puntos.text = Score.points.ToString();
             //Aqui hizo liz 
             next++;
-            Debug.Log(next);
+            //Debug.Log(next);
+            
+            PlayerPrefs.SetInt("puntosAcumulados", Score.points);
+            
+            Debug.Log(PlayerPrefs.GetInt("puntosAcumulados"));
+            Debug.Log(PlayerPrefs.GetInt("puntosAcumulados2"));
         }
         else
         {
