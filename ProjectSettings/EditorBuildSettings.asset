@@ -18,9 +18,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel 3.unity
     guid: 7b16d19a81f356b4581bab4640b0140b
   - enabled: 1
-    path: Assets/Scenes/NIvelFallido.unity
-    guid: 9f3caf43590d72542aa9a13790e2120b
-  - enabled: 1
     path: Assets/Scenes/Avatars.unity
     guid: 4941e345c2fc271479e72cfb0c5eafdf
+  - enabled: 1
+    path: Assets/Scenes/NIvelFallido.unity
+    guid: 9f3caf43590d72542aa9a13790e2120b
   m_configObjects: {}
