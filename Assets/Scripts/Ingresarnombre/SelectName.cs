@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.IO;
 
 public class SelectName : MonoBehaviour
 {
@@ -34,6 +35,18 @@ public class SelectName : MonoBehaviour
     public void aceptar()
     {
         PlayerPrefs.SetString("nombre1", inputText.text);
+        // Crear una instancia de la clase DatosJugador y asignar el nombre ingresado
+        //GuardarNombre.DatosJugador datos = new GuardarNombre.DatosJugador();
+        //datos.nombre = inputText.text;
+
+        // Convertir los datos a formato JSON
+        //string json = JsonUtility.ToJson(datos);
+
+        // Obtener la ruta completa del archivo JSON en la carpeta "Assets"
+        //string rutaCompleta = Path.Combine(Application.dataPath, "datosJugador.json");
+
+        // Escribir el JSON en el archivo
+        //File.WriteAllText(rutaCompleta, json);
         SceneManager.LoadScene("Avatars");
     }
 }
