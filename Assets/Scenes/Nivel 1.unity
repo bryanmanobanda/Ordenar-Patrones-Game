@@ -2109,8 +2109,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1645344202}
-        m_TargetAssemblyTypeName: regresar, Assembly-CSharp
+      - m_Target: {fileID: 1645344204}
+        m_TargetAssemblyTypeName: BotonRegresar, Assembly-CSharp
         m_MethodName: Regresar
         m_Mode: 1
         m_Arguments:
@@ -4006,7 +4006,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1645344203}
-  - component: {fileID: 1645344202}
+  - component: {fileID: 1645344204}
   m_Layer: 0
   m_Name: controladorRegresar
   m_TagString: Untagged
@@ -4014,18 +4014,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1645344202
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645344201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d2129e372921a14f85c60df11f4495a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1645344203
 Transform:
   m_ObjectHideFlags: 0
@@ -4041,6 +4029,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1645344204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1645344201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a4ea85352abfe9489f7594f47e554fa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1735347021
 GameObject:
   m_ObjectHideFlags: 0
