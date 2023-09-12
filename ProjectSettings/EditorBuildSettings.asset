@@ -18,6 +18,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Nivel 3.unity
     guid: 7b16d19a81f356b4581bab4640b0140b
   - enabled: 1
+    path: Assets/Scenes/NivelCompletado.unity
+    guid: 9b133d2e8dba88442b9ff2bb3a510052
+  - enabled: 1
+    path: Assets/Scenes/TablaPuntuaciones.unity
+    guid: 3f56de20ff783ff48ae25e8a93fc73ba
+  - enabled: 1
     path: Assets/Scenes/Avatars.unity
     guid: 4941e345c2fc271479e72cfb0c5eafdf
   - enabled: 1

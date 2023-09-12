@@ -1,40 +1,57 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class StarManager : MonoBehaviour
+public class StarRatingSystem : MonoBehaviour
 {
     public Image star1;
     public Image star2;
     public Image star3;
 
-    private int playerScore;
+    public Text totalPuntos;
 
-    // Aseg�rate de llamar a este m�todo cuando sea apropiado para establecer el puntaje del jugador
-    public void SetPlayerScore(int score)
+    void Start()
     {
-        playerScore = score;
-        UpdateStarStatus();
+        UpdateStarRating(PlayerPrefs.GetInt("puntosAcumulados2"));
     }
 
-    private void UpdateStarStatus()
+    void Update()
     {
-        if (playerScore >= 0 && playerScore < 10)
+        // Si deseas actualizar el sistema de calificación en tiempo real, descomenta la siguiente línea
+        // UpdateStarRating(PlayerPrefs.GetInt("puntosAcumulados2"));
+    }
+
+    void UpdateStarRating(int score)
+    {
+        totalPuntos.text = score.ToString();
+
+        if (score >= 60)
         {
-            star1.color = Color.white;
-            star2.color = Color.gray;
-            star3.color = Color.gray;
+            SetStarColor(star1, Color.yellow);
+            SetStarColor(star2, Color.yellow);
+            SetStarColor(star3, Color.yellow);
         }
-        else if (playerScore >= 10 && playerScore < 30)
+        else if (score >= 20)
         {
-            star1.color = Color.white;
-            star2.color = Color.white;
-            star3.color = Color.gray;
+            SetStarColor(star1, Color.yellow);
+            SetStarColor(star2, Color.yellow);
+            SetStarColor(star3, Color.gray);
         }
-        else if (playerScore >= 30)
+        else if (score >= 0)
         {
-            star1.color = Color.white;
-            star2.color = Color.white;
-            star3.color = Color.white;
+            SetStarColor(star1, Color.yellow);
+            SetStarColor(star2, Color.gray);
+            SetStarColor(star3, Color.gray);
         }
+        else
+        {
+            SetStarColor(star1, Color.gray);
+            SetStarColor(star2, Color.gray);
+            SetStarColor(star3, Color.gray);
+        }
+    }
+
+    void SetStarColor(Image star, Color color)
+    {
+        star.color = color;
     }
 }
