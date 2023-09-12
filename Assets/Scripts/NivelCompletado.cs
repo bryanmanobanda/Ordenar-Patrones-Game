@@ -1,18 +1,40 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class NivelCompletado : MonoBehaviour
+public class StarManager : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    public Image star1;
+    public Image star2;
+    public Image star3;
+
+    private int playerScore;
+
+    // Asegúrate de llamar a este método cuando sea apropiado para establecer el puntaje del jugador
+    public void SetPlayerScore(int score)
     {
-        
+        playerScore = score;
+        UpdateStarStatus();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void UpdateStarStatus()
     {
-        
+        if (playerScore >= 0 && playerScore < 10)
+        {
+            star1.color = Color.white;
+            star2.color = Color.gray;
+            star3.color = Color.gray;
+        }
+        else if (playerScore >= 10 && playerScore < 30)
+        {
+            star1.color = Color.white;
+            star2.color = Color.white;
+            star3.color = Color.gray;
+        }
+        else if (playerScore >= 30)
+        {
+            star1.color = Color.white;
+            star2.color = Color.white;
+            star3.color = Color.white;
+        }
     }
 }
