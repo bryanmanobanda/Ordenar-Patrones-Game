@@ -36,17 +36,17 @@ public class SelectName : MonoBehaviour
     {
         PlayerPrefs.SetString("nombre1", inputText.text);
         // Crear una instancia de la clase DatosJugador y asignar el nombre ingresado
-        //GuardarNombre.DatosJugador datos = new GuardarNombre.DatosJugador();
-        //datos.nombre = inputText.text;
+       GuardarNombre.DatosJugador datos = new GuardarNombre.DatosJugador();
+       datos.nombre = inputText.text;
 
         // Convertir los datos a formato JSON
-        //string json = JsonUtility.ToJson(datos);
+        string json = JsonUtility.ToJson(datos);
 
         // Obtener la ruta completa del archivo JSON en la carpeta "Assets"
-        //string rutaCompleta = Path.Combine(Application.dataPath, "datosJugador.json");
+        string rutaCompleta = Path.Combine(Application.dataPath, "datosJugador.json");
 
         // Escribir el JSON en el archivo
-        //File.WriteAllText(rutaCompleta, json);
+        File.WriteAllText(rutaCompleta, json);
         SceneManager.LoadScene("Avatars");
     }
 }
