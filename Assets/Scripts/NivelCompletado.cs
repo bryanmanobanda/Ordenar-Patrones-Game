@@ -9,7 +9,7 @@ public class StarManager : MonoBehaviour
 
     private int playerScore;
 
-    // Asegúrate de llamar a este método cuando sea apropiado para establecer el puntaje del jugador
+    // Asegï¿½rate de llamar a este mï¿½todo cuando sea apropiado para establecer el puntaje del jugador
     public void SetPlayerScore(int score)
     {
         playerScore = score;
