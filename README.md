@@ -17,15 +17,15 @@ The game was developed using **Unity and C#** and includes the following feature
 ## 📷 Project Screen Shot(s)
 
 Screenshots showcase the different levels, featuring various character-based, shape-based, and color-based patterns.
-![level 1 with character-based pattern](\Assets\p_readme\nivel1.jpg)
+![level 1 with character-based pattern](Assets/p_readme/nivel1.jpg)
 
-![level 2 with character-based pattern](\Assets\p_readme\nivel2.jpg)
+![level 2 with character-based pattern](Assets/p_readme/nivel2.jpg)
 
-![level 3 with character-based pattern](\Assets\p_readme\nivel3.jpg)
+![level 3 with character-based pattern](Assets/p_readme/nivel3.jpg)
 
 One level includes an additional character designed to distract the player.
 
-![character distractor](\Assets\p_readme\distractor.jpg)
+![character distractor](Assets/p_readme/distractor.jpg)
 
 ## 💻 Installation and Setup Instructions
 
