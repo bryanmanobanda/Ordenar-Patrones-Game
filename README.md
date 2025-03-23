@@ -39,7 +39,7 @@ Setup:
 
 Add the repository to Unity and run the game.
 
-## Reflection
+## 🖋 Reflection
 
 The design and development of this game were primarily aimed at helping children with cognitive disabilities enhance their visual perception and hand-eye coordination by organizing patterns at different levels.
 
